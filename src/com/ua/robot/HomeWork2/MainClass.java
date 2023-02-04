@@ -1,4 +1,4 @@
-package com.ua.robot.HomeWork1;
+package com.ua.robot.HomeWork2;
 
 public class MainClass {
     public static void main(String[] args) {

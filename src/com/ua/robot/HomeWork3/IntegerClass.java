@@ -1,4 +1,4 @@
-package com.ua.robot.HomeWork2;
+package com.ua.robot.HomeWork3;
 
 public class IntegerClass {
     public static void main(String[] args) {
