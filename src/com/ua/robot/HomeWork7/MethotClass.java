@@ -8,24 +8,24 @@ public class MethotClass {
         int cubeNumber = cubeNumber(3);
         System.out.println(cubeNumber);
         //print symbol "*" of cubeX times
-        printsymbolofcube(cubeNumber);
+        printSymbolOfCube(cubeNumber);
         //print anyone symbol (for example "$") of cubeX times
         String symbol = "$";
-        printsymbolofcube(cubeNumber,symbol);
+        printSymbolOfCube(cubeNumber,symbol);
 
     }
     static int cubeNumber(int x) {
         return x * x * x;
     }
 
-    static void printsymbolofcube(int cubeNumber) {
+    static void printSymbolOfCube(int cubeNumber) {
         for (int i = 1; i <= cubeNumber; i++) {
             System.out.print("*");
         }
         System.out.println();
 
     }
-    static void printsymbolofcube(int cubeNumber, String symbol) {
+    static void printSymbolOfCube(int cubeNumber, String symbol) {
         for (int i = 0; i < cubeNumber; i++) {
             System.out.print(symbol);
         }
