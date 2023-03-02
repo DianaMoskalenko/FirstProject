@@ -3,8 +3,8 @@ package com.ua.robot.HomeWork12;
 public class Teacher extends Personality{
 
 
-    public Teacher(String name, int age) {
-        super(name, 37);
+    public Teacher(String name, int age, String speciality) {
+        super(name, age, speciality);
     }
     @Override
     public void talkAboutMyself() {
@@ -13,6 +13,6 @@ public class Teacher extends Personality{
         System.out.println("I am " + getAge() + " years old");
     }
     public void work(){
-        System.out.println("I teach programming");
+        System.out.println("I am " + getSpeciality());
     }
 }
